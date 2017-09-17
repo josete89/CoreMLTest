@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D85FDC231F229EB900470980 /* shoesGenerator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D85FDC221F229EB900470980 /* shoesGenerator.mlmodel */; };
+		D85FDC251F229F3F00470980 /* ShoesGenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FDC241F229F3F00470980 /* ShoesGenViewController.swift */; };
 		D894F1E01F1D131C00C65564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894F1DF1F1D131C00C65564 /* AppDelegate.swift */; };
 		D894F1E21F1D131C00C65564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894F1E11F1D131C00C65564 /* ViewController.swift */; };
 		D894F1E51F1D131C00C65564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D894F1E31F1D131C00C65564 /* Main.storyboard */; };
 		D894F1E71F1D131C00C65564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D894F1E61F1D131C00C65564 /* Assets.xcassets */; };
 		D894F1EA1F1D131C00C65564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D894F1E81F1D131C00C65564 /* LaunchScreen.storyboard */; };
+		D894F1F61F1D134F00C65564 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D894F1F51F1D134F00C65564 /* Resnet50.mlmodel */; };
+		D894F1F81F1D143D00C65564 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894F1F71F1D143D00C65564 /* VideoCapture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D85FDC221F229EB900470980 /* shoesGenerator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = shoesGenerator.mlmodel; path = ../../../Downloads/shoesGenerator.mlmodel; sourceTree = "<group>"; };
+		D85FDC241F229F3F00470980 /* ShoesGenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesGenViewController.swift; sourceTree = "<group>"; };
 		D894F1DC1F1D131C00C65564 /* CoreMLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D894F1DF1F1D131C00C65564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D894F1E11F1D131C00C65564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		D894F1E61F1D131C00C65564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D894F1E91F1D131C00C65564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D894F1EB1F1D131C00C65564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D894F1F51F1D134F00C65564 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
+		D894F1F71F1D143D00C65564 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				D894F1E61F1D131C00C65564 /* Assets.xcassets */,
 				D894F1E81F1D131C00C65564 /* LaunchScreen.storyboard */,
 				D894F1EB1F1D131C00C65564 /* Info.plist */,
+				D85FDC221F229EB900470980 /* shoesGenerator.mlmodel */,
+				D894F1F51F1D134F00C65564 /* Resnet50.mlmodel */,
+				D894F1F71F1D143D00C65564 /* VideoCapture.swift */,
+				D85FDC241F229F3F00470980 /* ShoesGenViewController.swift */,
 			);
 			path = CoreMLTest;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D894F1F81F1D143D00C65564 /* VideoCapture.swift in Sources */,
 				D894F1E21F1D131C00C65564 /* ViewController.swift in Sources */,
+				D894F1F61F1D134F00C65564 /* Resnet50.mlmodel in Sources */,
+				D85FDC231F229EB900470980 /* shoesGenerator.mlmodel in Sources */,
+				D85FDC251F229F3F00470980 /* ShoesGenViewController.swift in Sources */,
 				D894F1E01F1D131C00C65564 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +332,7 @@
 				D894F1F01F1D131C00C65564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
